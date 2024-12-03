@@ -1,6 +1,11 @@
 [package]
 name = "toidiu"
 version = "0.2.0"
+description = "A Rust implementation of the IETF QUIC protocol"
+repository = "https://github.com/toidiu/toidiu-rs"
+authors = ["toidiu"]
 edition = "2021"
+rust-version = "1.83"
+license = "Apache-2.0"
 
 [dependencies]
