@@ -1,7 +1,7 @@
 [package]
 name = "toidiu"
 version = "0.5.0"
-description = "A Rust implementation of the IETF QUIC protocol"
+description = "A test libarary."
 repository = "https://github.com/toidiu/toidiu-rs"
 authors = ["toidiu"]
 edition = "2021"
