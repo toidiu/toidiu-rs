@@ -1,6 +1,6 @@
 [package]
 name = "toidiu"
-version = "0.4.0"
+version = "0.5.0"
 description = "A Rust implementation of the IETF QUIC protocol"
 repository = "https://github.com/toidiu/toidiu-rs"
 authors = ["toidiu"]
@@ -21,5 +21,5 @@ feature_2 = []
 # Docs.rs generates crates.io documentation using the nightly release of the Rust
 # compiler. See documentation for additional configuration options:
 # https://docs.rs/about/metadata
-[package.metadata.docs.rs]
-rustdoc-args = ["--cfg", "docsrs"]
+# [package.metadata.docs.rs]
+# rustdoc-args = ["--cfg", "docsrs"]
