@@ -1,6 +1,6 @@
 [package]
 name = "toidiu"
-version = "0.2.0"
+version = "0.3.0"
 description = "A Rust implementation of the IETF QUIC protocol"
 repository = "https://github.com/toidiu/toidiu-rs"
 authors = ["toidiu"]
@@ -8,4 +8,16 @@ edition = "2021"
 rust-version = "1.83"
 license = "Apache-2.0"
 
+[features]
+feature_1 = []
+
 [dependencies]
+
+
+# Compile with the `docsrs` feature to enable feature tagging in rust docs.
+#
+# Docs.rs generates crates.io documentation using the nightly release of the Rust
+# compiler. See documentation for additional configuration options:
+# https://docs.rs/about/metadata
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "docsrs"]
